@@ -20,7 +20,7 @@ public class DotCom {
 
             if (locationCells.isEmpty()) {
                 result = "kill";
-                Sytem.out.println("Ouch! You sunk " + name + "  : (");
+                System.out.println("Ouch! You sunk " + name + "  : (");
             } else {
                 result = "hit";
             }

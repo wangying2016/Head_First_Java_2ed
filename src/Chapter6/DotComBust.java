@@ -46,7 +46,7 @@ public class DotComBust {
 
         String result = "miss";
 
-        for (DotCOm dotComToTest : dotComsList) {
+        for (DotCom dotComToTest : dotComsList) {
 
             result = dotComToTest.checkYourself(userGuess);
 
@@ -55,7 +55,7 @@ public class DotComBust {
             }
             if (result.equals("kill")) {
 
-                dotCOmsList.remove(dotComToTest);
+                dotComsList.remove(dotComToTest);
                 break;
             }
         }
